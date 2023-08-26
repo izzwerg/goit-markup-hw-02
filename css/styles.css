@@ -103,7 +103,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  padding: 16px 32px;
+
 
   background: #4d5ae5;
 }
@@ -181,7 +181,7 @@
 .team-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+
   margin-top: 72px;
 }
 
