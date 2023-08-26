@@ -1,0 +1,63 @@
+.body-style {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background: #fff;
+}
+
+.head-style {
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-right {
+  color: #2e2f42;
+}
+
+.logo-right:hover,
+.logo:focus .logo-right {
+  color: #404bbf;
+}
+
+.head-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head-list-link {
+  text-decoration: none;
+}
+
+.head-list-link:focus,
+.head-list-link:hover {
+  color: #404BBF;
+}
+
+.head-address {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head-address-link {
+  text-decoration: none;
+  font-style: normal;
+  color: #434455;
+}
+
+.head-address-link:focus,
+.head-address-link:hover {
+  color: #404BBF;
+}
