@@ -2,6 +2,10 @@
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background: #fff;
+  width: 1440px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .head-style {
@@ -38,11 +42,16 @@
 
 .head-list-link {
   text-decoration: none;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .head-list-link:focus,
 .head-list-link:hover {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .head-address {
@@ -53,11 +62,71 @@
 
 .head-address-link {
   text-decoration: none;
-  font-style: normal;
   color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .head-address-link:focus,
 .head-address-link:hover {
-  color: #404BBF;
+  color: #404bbf;
+}
+
+.hero {
+  background: #2e2f42;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+.benefits {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits-title {
+}
+
+.benefits-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
