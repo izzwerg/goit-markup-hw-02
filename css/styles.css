@@ -12,6 +12,8 @@
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .logo {
@@ -123,6 +125,14 @@
 }
 
 .benefits-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
 }
 
 .benefits-list {
@@ -146,10 +156,12 @@
 }
 
 .benefits-list-text {
-  color: var(--slate, #434455);
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 8px;
 }
 
@@ -211,4 +223,59 @@
   margin: 0;
   padding: 0;
   margin-bottom: 32px;
+}
+
+.portfolio {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-header {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 72px;
+}
+
+.portfolio-list-item {
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+}
+
+.portfolio-list-header {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  padding: 0;
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+.portfolio-list-text {
+  color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+padding: 0;
+margin: 0;
+margin-bottom: 32px;
+margin-left: 16px;
 }
